@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					},
+					{
+						"internalType": "enum TaskList.difficulty",
+						"name": "_dif",
+						"type": "uint8"
+					}
+				],
+				"name": "addTask",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllTasks",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "_allTasks",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_id",
+						"type": "uint8"
+					}
+				],
+				"name": "getTaskByID",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "text",
+								"type": "string"
+							},
+							{
+								"internalType": "enum TaskList.difficulty",
+								"name": "level",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint8",
+								"name": "id",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct TaskList.Task",
+						"name": "_task",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/script_5.sol": "TaskList"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/script_5.sol": {
+			"keccak256": "0xa2d42ac27f19f62e456e9fe01d38faef67524b2b4909c491bbb1cc49c7652bb2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://24277309122824610994af9c2dc069981a2b4487c100dc3131ed07c2615bee0f",
+				"dweb:/ipfs/QmcMcVq6Gi3uVD81WZUpFpfprumr9zK1wdGdSBwd6E9Hmv"
+			]
+		}
+	},
+	"version": 1
+}
