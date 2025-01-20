@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/script_6.sol": "Alumnos"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/script_6.sol": {
+			"keccak256": "0xaf2c45028d6ece5ea3d6531ae12d9c7e175383aaa57bff59732ffff5b77db67d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cc00bfa983d8ab4f1c13a7d19dd19417ccd65790d23917fe23b8bcf568fa33a8",
+				"dweb:/ipfs/QmXQrxbZLBKjmtHBbyFsHs5Xn8Qd13WWimba1M39rkaN5c"
+			]
+		}
+	},
+	"version": 1
+}

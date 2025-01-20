@@ -1,0 +1,180 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAlumnsByAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "nombre",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "apellido",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "edad",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "existe",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ContratoAlumnos.Alumno",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "id",
+						"type": "uint8"
+					}
+				],
+				"name": "getStudentID",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "nombre",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "apellido",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "edad",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "existe",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ContratoAlumnos.Alumno",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "listar_alumn",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "nombre",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "apellido",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "edad",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "existe",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ContratoAlumnos.Alumno[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_apellido",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_edad",
+						"type": "uint8"
+					}
+				],
+				"name": "registro_alumnos",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/script_6.sol": "ContratoAlumnos"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/script_6.sol": {
+			"keccak256": "0x4d0f9323dd9e30a104fbf5fe8d672414a3fc09062bc9bf81083e93b01da2aa77",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a884874106a5e27f1139e35ee6a841b9bdefcd709dc45a737ed5d030f13809bb",
+				"dweb:/ipfs/QmWWi5mXaqgxDZH8CVouSz6ZwikvKeLQHdgj7VHMiRsZau"
+			]
+		}
+	},
+	"version": 1
+}

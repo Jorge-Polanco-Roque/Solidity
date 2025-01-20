@@ -1,0 +1,211 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAllStudents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "surname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "exist",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ConquerStudents.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudentById",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "surname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "exist",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ConquerStudents.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_surname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "registerStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "studentCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "studentIds",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "surname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "exist",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/script_6.sol": "ConquerStudents"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/script_6.sol": {
+			"keccak256": "0x78cc3cb9d499977ae7ce9655a68087194540a106acf7bd3a9b81e529fdf0f169",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8fd6014b0193d21915ed2b87c1468539252c119ebdf21265ed033bfe8633752",
+				"dweb:/ipfs/QmbEuos55ByaZoxWSVdVgudEi9nC6jtqpwGH8PCSKZcbgV"
+			]
+		}
+	},
+	"version": 1
+}
