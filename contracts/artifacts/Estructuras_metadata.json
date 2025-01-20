@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ConquerAlumnos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "apellido",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "edad",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "alumno1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "apellido",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "edad",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numeros",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/script_4.sol": "Estructuras"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/script_4.sol": {
+			"keccak256": "0xf862f79af5b167e59452f65e62e479ffe0fc64ddd2d47f563b347bdbcb414a75",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://eafed6963f67d0a1644512a129ee154bc599387c1c3c521df945b16c6923a426",
+				"dweb:/ipfs/QmU9qMo2gGSWH3WvXex6cLQes4q1VY8zXUMu2UKeJHSMBf"
+			]
+		}
+	},
+	"version": 1
+}

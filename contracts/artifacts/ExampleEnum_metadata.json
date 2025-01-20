@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "activate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "close",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentStatus",
+				"outputs": [
+					{
+						"internalType": "enum ExampleEnum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/script_2.sol": "ExampleEnum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/script_2.sol": {
+			"keccak256": "0x1bdf821d7692475c2383915c05b3818bb5b7f7f980897491f43deb725407153a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b8bf1c4719c4e3a6591727cc6fcf3c193e7243709ffbcf8c6464e33211703870",
+				"dweb:/ipfs/QmTwNBJ9PRCjJgHiCA3HaQaDAJbnFi8o3BovpZjrHVXuVy"
+			]
+		}
+	},
+	"version": 1
+}
