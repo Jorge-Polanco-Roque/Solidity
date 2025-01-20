@@ -360,7 +360,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/script_1.sol": "Contrato190125"
+			"contracts/SmartContract_1.sol": "Contrato190125"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -406,7 +406,7 @@
 				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
 			]
 		},
-		"contracts/script_1.sol": {
+		"contracts/SmartContract_1.sol": {
 			"keccak256": "0x8a6eed0460d283740e08771c133c60c8c192db857924f0a49ce12aee8715f45c",
 			"license": "GPL-3.0",
 			"urls": [

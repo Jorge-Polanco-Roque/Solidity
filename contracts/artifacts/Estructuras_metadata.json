@@ -90,7 +90,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/script_4.sol": "Estructuras"
+			"contracts/SmartContract_4.sol": "Estructuras"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -104,7 +104,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/script_4.sol": {
+		"contracts/SmartContract_4.sol": {
 			"keccak256": "0xf862f79af5b167e59452f65e62e479ffe0fc64ddd2d47f563b347bdbcb414a75",
 			"license": "GPL-3.0",
 			"urls": [

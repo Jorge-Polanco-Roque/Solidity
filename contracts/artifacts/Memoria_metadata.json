@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get_Alumno",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "modificar_alumno",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Código Memoria.sol": "Memoria"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Código Memoria.sol": {
+			"keccak256": "0x6d2dd0e73711f01918605c910915663107673262e97999e6c0989bea9261c65e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://36e98e1d0d6b9952c8085c929b2d3114601c9e2c716854c7e62ef55e47ad1d7b",
+				"dweb:/ipfs/QmVJwgb7GFwYD57kiHYcCwqMVHYMjTNnPh2qMyD2kAPqNg"
+			]
+		}
+	},
+	"version": 1
+}

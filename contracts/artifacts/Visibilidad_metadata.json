@@ -6,13 +6,37 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "dir2",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "get_suma",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_var_x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +44,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "estado1",
+				"name": "get_y",
 				"outputs": [
 					{
-						"internalType": "enum Variables.disponible",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -33,38 +57,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "estado2",
+				"name": "x",
 				"outputs": [
 					{
-						"internalType": "enum Variables.disponible",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hashing",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owener",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -84,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartContract_3.sol": "Variables"
+			"contracts/Código Visibilidad.sol": "Visibilidad"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -98,12 +96,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SmartContract_3.sol": {
-			"keccak256": "0x936e719d40353d4b575fd258d46afd8c0517d5b49c93e42bc50461a97d45594f",
+		"contracts/Código Visibilidad.sol": {
+			"keccak256": "0xc081a08a6e101552cd921c8bf0363d78cc76808579aa538555fa8721972f20ac",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9d17ee65bedd09561d52d432324783a57ae95cb450c3e144457d175bb36069f9",
-				"dweb:/ipfs/QmVZ9zYKcutGU2f8nHMZBhUyeF6WcqkktJh27ZjbXvK2FH"
+				"bzz-raw://b89b7355579279c8be910939a4d29cd54fe7256770724b2c968417e965925893",
+				"dweb:/ipfs/QmTKwB4jXk4XgK1F2mR3fUmfTBB5FvavVDxcF2LRH6LRPK"
 			]
 		}
 	},

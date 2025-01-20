@@ -7,31 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "activate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "close",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "currentStatus",
+				"name": "var1",
 				"outputs": [
 					{
-						"internalType": "enum ExampleEnum.Status",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +20,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "getStatus",
+				"name": "var2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "var3",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -64,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartContract_2.sol": "ExampleEnum"
+			"contracts/Código Visibilidad.sol": "B"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -78,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SmartContract_2.sol": {
-			"keccak256": "0x1bdf821d7692475c2383915c05b3818bb5b7f7f980897491f43deb725407153a",
+		"contracts/Código Visibilidad.sol": {
+			"keccak256": "0xc081a08a6e101552cd921c8bf0363d78cc76808579aa538555fa8721972f20ac",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b8bf1c4719c4e3a6591727cc6fcf3c193e7243709ffbcf8c6464e33211703870",
-				"dweb:/ipfs/QmTwNBJ9PRCjJgHiCA3HaQaDAJbnFi8o3BovpZjrHVXuVy"
+				"bzz-raw://b89b7355579279c8be910939a4d29cd54fe7256770724b2c968417e965925893",
+				"dweb:/ipfs/QmTKwB4jXk4XgK1F2mR3fUmfTBB5FvavVDxcF2LRH6LRPK"
 			]
 		}
 	},

@@ -184,7 +184,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/script_6.sol": "ConquerStudents"
+			"contracts/SmartContract_6.sol": "ConquerStudents"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -198,7 +198,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/script_6.sol": {
+		"contracts/SmartContract_6.sol": {
 			"keccak256": "0x78cc3cb9d499977ae7ce9655a68087194540a106acf7bd3a9b81e529fdf0f169",
 			"license": "MIT",
 			"urls": [
