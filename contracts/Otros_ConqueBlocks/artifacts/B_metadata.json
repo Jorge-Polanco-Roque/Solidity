@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.14+commit.80d49f37"
 	},
 	"language": "Solidity",
 	"output": {
@@ -58,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartContract_7.sol": "B"
+			"contracts/Otros_ConqueBlocks/Código Visibilidad.sol": "B"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SmartContract_7.sol": {
-			"keccak256": "0x35b2ba68dc9660414ba6e4693dd6eeb687594fdcf22ce7d000eb00592f0a297b",
-			"license": "MIT",
+		"contracts/Otros_ConqueBlocks/Código Visibilidad.sol": {
+			"keccak256": "0xc081a08a6e101552cd921c8bf0363d78cc76808579aa538555fa8721972f20ac",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7c544d1e6d9f8d4ba28523f85d7478b624758279503c0ac33afe59424cbb59d0",
-				"dweb:/ipfs/QmWPoDfCN8oSmwQngXxgiKYjNHEYRZPhzda6Ln3vqP54HP"
+				"bzz-raw://b89b7355579279c8be910939a4d29cd54fe7256770724b2c968417e965925893",
+				"dweb:/ipfs/QmTKwB4jXk4XgK1F2mR3fUmfTBB5FvavVDxcF2LRH6LRPK"
 			]
 		}
 	},

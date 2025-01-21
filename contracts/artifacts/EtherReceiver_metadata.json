@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "transactInfo",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmartContract_8.sol": "EtherReceiver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmartContract_8.sol": {
+			"keccak256": "0xbd26ed7d4f64bf30a2e9d90a7db695fe990005c3c4ede26b06cd136105131e69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8199f432ec25c16d111dee15df3c9f05c9807d444f572356a2976cc95e95db69",
+				"dweb:/ipfs/Qme7nC4pnTyBn42dcZHH4YczR6YxJC8DDDPJCqzTypA2id"
+			]
+		}
+	},
+	"version": 1
+}

@@ -24,8 +24,8 @@ contract Memoria
 */
 
     function modificar_alumno () external {
-        Alumno memory _alumno = alumnos[0];
-
+        Alumno storage _alumno = alumnos[0];
+        //Alumno memory _alumno = alumnos[0];
         _alumno.nombre = "Luis";
     }
 

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -97,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/script_5.sol": "TaskList"
+			"contracts/SmartContract_5.sol": "TaskList"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,7 +111,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/script_5.sol": {
+		"contracts/SmartContract_5.sol": {
 			"keccak256": "0xa2d42ac27f19f62e456e9fe01d38faef67524b2b4909c491bbb1cc49c7652bb2",
 			"license": "GPL-3.0",
 			"urls": [

@@ -1,15 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.14+commit.80d49f37"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
 			{
 				"inputs": [],
 				"name": "getAllStudents",
@@ -46,7 +41,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_dir",
+						"type": "address"
+					}
+				],
 				"name": "getStudentByAddress",
 				"outputs": [
 					{
@@ -84,7 +85,7 @@
 				"inputs": [
 					{
 						"internalType": "uint8",
-						"name": "id",
+						"name": "_id",
 						"type": "uint8"
 					}
 				],
@@ -139,7 +140,7 @@
 						"type": "uint8"
 					}
 				],
-				"name": "register_Students",
+				"name": "register_student",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -158,9 +159,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartContract_10.sol": "ConquerStudents"
+			"contracts/Otros_ConqueBlocks/SOL 05 - Corrección del ejercicio del Banco - Codigo.sol": "ConquerStudents"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -172,12 +173,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SmartContract_10.sol": {
-			"keccak256": "0x340d6c3d7990fb5dd1c1c14ee6371293655f6ebe37256552babdaf63cf9759f4",
+		"contracts/Otros_ConqueBlocks/SOL 05 - Corrección del ejercicio del Banco - Codigo.sol": {
+			"keccak256": "0xf7598a5fbbe88e3039d68409d6603174b1a56fbbfc23cdb7b90d07b13dfabcee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://53c04d076fc330dfde4842488f46b62715389533e23600c00e244c404b194bcb",
-				"dweb:/ipfs/QmZEiBTx68z5QNprCN9yrZrhT1N6WhDjWBt9rJpdNvgdox"
+				"bzz-raw://428bbefe68398c9831980459eecb80b174b497bf39b3e774ee15ece0eab1edc4",
+				"dweb:/ipfs/QmSFCva7yszTH4MAAxKBSPyobPT6k61asWhfLiqdjQfTRC"
 			]
 		}
 	},
