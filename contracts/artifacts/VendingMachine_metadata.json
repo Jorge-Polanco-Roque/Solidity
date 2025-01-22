@@ -1,0 +1,222 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint8",
+						"name": "_price",
+						"type": "uint8"
+					}
+				],
+				"name": "newSnackAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "_quantity",
+						"type": "uint32"
+					}
+				],
+				"name": "snackRestocked",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "_amount",
+						"type": "uint32"
+					}
+				],
+				"name": "snackSold",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_quantity",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_price",
+						"type": "uint8"
+					}
+				],
+				"name": "addNewSnack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_amount",
+						"type": "uint32"
+					}
+				],
+				"name": "buySnack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllSnacks",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint32",
+								"name": "quantity",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint8",
+								"name": "price",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct VendingMachine.Snack[]",
+						"name": "_stock",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMachineBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_quantity",
+						"type": "uint32"
+					}
+				],
+				"name": "restock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Smart_Contract_11.sol": "VendingMachine"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Smart_Contract_11.sol": {
+			"keccak256": "0x22b3e383f5bfc7460786016e0bc14c450ab05590e2cd29d093d50d0bda4b8af3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46181d6e16fceef43b4bda627ac65d9bc89563a438278c1f059fd5f16b8c9809",
+				"dweb:/ipfs/QmbH1s6mNyWjb6AvRYADQZaaV9kumfJ8foWg6RQFjfatRe"
+			]
+		}
+	},
+	"version": 1
+}

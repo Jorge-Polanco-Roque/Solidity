@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Smart_Contract_11.sol": "ConquerStudents"
+			"contracts/Smart_Contract_11.sol": "VendingMacj"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Smart_Contract_11.sol": {
-			"keccak256": "0x139a8f295889f67a406693a6df523ed7193880d91714c50a1104ec5dafb62e17",
+			"keccak256": "0xde044eed0dab39e5be957261647065daef54eeb61288bbb0065c19ce8b28a694",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d3143bd4621ba125cb4f88336a613ccf34e2e315a7f7b7e8edcf87dc782ce1f1",
-				"dweb:/ipfs/QmbZMqtaajjBZtiu9N2aE943xWBGoaxoz58BFvZ1ePvj2A"
+				"bzz-raw://6c10a9cd15f6265345f55f4ba461753ebc4ceb2dde362fc920972718129e9943",
+				"dweb:/ipfs/QmfMQTUineeWXgNSKAWx8JfzENnmgcTXYzz6837mzfjpFA"
 			]
 		}
 	},
