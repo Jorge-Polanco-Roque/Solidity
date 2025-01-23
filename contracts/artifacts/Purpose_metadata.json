@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_contractPurpose",
+						"type": "string"
+					}
+				],
+				"name": "changedPurpose",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newPurpose",
+						"type": "string"
+					}
+				],
+				"name": "changePurpose",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPurpose",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Smart_Contract_13.sol": "Purpose"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Smart_Contract_13.sol": {
+			"keccak256": "0x808a9e8462fdcd817dec683735a8b5d7fdd84a2ff4887a1c522d4cfc9abccb5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bd74c9e6a5789e5ae3852ac17a85a07e79260c7039ad68ef098c6b232c5ebaa",
+				"dweb:/ipfs/QmWenjt9JAGXSWMMLQ84nJbcH4m1cup6LxybsUEpsVRuPg"
+			]
+		}
+	},
+	"version": 1
+}
