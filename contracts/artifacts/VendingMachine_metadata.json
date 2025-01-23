@@ -291,7 +291,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Smart_Contract_12.sol": "VendingMachine"
+			"contracts/SmartContract_12.sol": "VendingMachine"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -321,7 +321,7 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/Smart_Contract_12.sol": {
+		"contracts/SmartContract_12.sol": {
 			"keccak256": "0x5b2196c2e0c439004cae8d3998a510008a255d60dce9113b1d312d423774c390",
 			"license": "MIT",
 			"urls": [
