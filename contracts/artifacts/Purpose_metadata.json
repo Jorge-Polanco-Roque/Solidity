@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Smart_Contract_13.sol": "Purpose"
+			"contracts/SmartContract_13.sol": "Purpose"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -77,7 +77,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Smart_Contract_13.sol": {
+		"contracts/SmartContract_13.sol": {
 			"keccak256": "0x808a9e8462fdcd817dec683735a8b5d7fdd84a2ff4887a1c522d4cfc9abccb5b",
 			"license": "MIT",
 			"urls": [

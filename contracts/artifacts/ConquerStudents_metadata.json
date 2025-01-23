@@ -4,7 +4,147 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAllStudents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "surname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "exist",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ConquerStudents.Students[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStudentByAddress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "surname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "exist",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ConquerStudents.Students",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "id",
+						"type": "uint8"
+					}
+				],
+				"name": "getStudentById",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "surname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "exist",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ConquerStudents.Students",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_surname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "register_Students",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +158,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Smart_Contract_11.sol": "ConquerStudents"
+			"contracts/SmartContract_10.sol": "ConquerStudents"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +172,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Smart_Contract_11.sol": {
-			"keccak256": "0x139a8f295889f67a406693a6df523ed7193880d91714c50a1104ec5dafb62e17",
+		"contracts/SmartContract_10.sol": {
+			"keccak256": "0x340d6c3d7990fb5dd1c1c14ee6371293655f6ebe37256552babdaf63cf9759f4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d3143bd4621ba125cb4f88336a613ccf34e2e315a7f7b7e8edcf87dc782ce1f1",
-				"dweb:/ipfs/QmbZMqtaajjBZtiu9N2aE943xWBGoaxoz58BFvZ1ePvj2A"
+				"bzz-raw://53c04d076fc330dfde4842488f46b62715389533e23600c00e244c404b194bcb",
+				"dweb:/ipfs/QmZEiBTx68z5QNprCN9yrZrhT1N6WhDjWBt9rJpdNvgdox"
 			]
 		}
 	},
