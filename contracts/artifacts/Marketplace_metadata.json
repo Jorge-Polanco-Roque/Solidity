@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmartContract_19.sol": "Marketplace"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmartContract_19.sol": {
+			"keccak256": "0xbec49442b9d27dd5f016c683067b7f43622bb4deabcb414079cdedab81fa6429",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15ab008a380ed679c64ad21b8cf5c6248bd846c57359a84b374f734befd257d6",
+				"dweb:/ipfs/QmUUZA9yu7nNkBD8zKrZFEedUcJmeNiDiDG1sPSGWgXPic"
+			]
+		}
+	},
+	"version": 1
+}

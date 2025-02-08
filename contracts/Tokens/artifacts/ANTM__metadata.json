@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tokens/ANTM_ERC20.sol": "ANTM_"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tokens/ANTM_ERC20.sol": {
+			"keccak256": "0xfed9f904c634b3ea8220a0e8ae74fccfd6f447c1e5495004f36d48971db1644f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a89ff29041f19b08ce5273ce4cafdeecb154dcbacb44dbf041e3a5b091b4c355",
+				"dweb:/ipfs/QmNXmF3Lincoxan1pjtw8Ls3yEVJxtLk7gxvyE1b5ruKn4"
+			]
+		}
+	},
+	"version": 1
+}
