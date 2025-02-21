@@ -1,30 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "ANTM_Insufficient_Tokens",
-				"type": "error"
-			},
-			{
-				"inputs": [],
-				"name": "ANTM_Marketplace_Insufficient_Funds",
-				"type": "error"
-			},
-			{
-				"inputs": [],
-				"name": "ANTM_NFT_Minting_Error",
-				"type": "error"
-			},
 			{
 				"inputs": [
 					{
@@ -51,38 +31,6 @@
 				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "tokenID",
-						"type": "uint256"
-					}
-				],
-				"name": "NFT_Purchased",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "tokenID",
-						"type": "uint256"
-					}
-				],
-				"name": "NFT_added_To_Marketplace",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
 						"indexed": true,
 						"internalType": "address",
 						"name": "previousOwner",
@@ -99,140 +47,54 @@
 				"type": "event"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "COUNCIL_SIZE",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "tokenURI",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "add_NFT_To_Marketplace",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "accessToken",
+				"outputs": [
+					{
+						"internalType": "contract AccessToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "councilMembers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "manageTreasury",
 				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "tokenID",
-						"type": "uint256"
-					}
-				],
-				"name": "buy_ANTM_NFT",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "erc20Contract",
-				"outputs": [
-					{
-						"internalType": "contract ANTM_ERC20",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get_Available_NFTs",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get_ERC20_Address",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get_NFT_Address",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "nftContract",
-				"outputs": [
-					{
-						"internalType": "contract ANTM_NFT",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "nftPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"name": "onERC721Received",
-				"outputs": [
-					{
-						"internalType": "bytes4",
-						"name": "",
-						"type": "bytes4"
-					}
-				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -257,40 +119,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "rewardTokens",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_nftPrice",
-						"type": "uint256"
+						"internalType": "address[]",
+						"name": "_members",
+						"type": "address[]"
 					}
 				],
-				"name": "set_NFT_Price",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_rewardTokens",
-						"type": "uint256"
-					}
-				],
-				"name": "set_Reward_Tokens",
+				"name": "setCouncilMembers",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -310,9 +146,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "vote",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -331,9 +173,6 @@
 			},
 			"kind": "dev",
 			"methods": {
-				"onERC721Received(address,address,uint256,bytes)": {
-					"details": "See {IERC721Receiver-onERC721Received}. Always returns `IERC721Receiver.onERC721Received.selector`."
-				},
 				"owner()": {
 					"details": "Returns the address of the current owner."
 				},
@@ -354,9 +193,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Tokens/Marketplace.sol": "Marketplace"
+			"test.sol": "DAO"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -382,30 +221,6 @@
 			"urls": [
 				"bzz-raw://399594cd8bb0143bc9e55e0f1d071d0d8c850a394fb7a319d50edd55d9ed822b",
 				"dweb:/ipfs/QmbPZzgtT6LEm9CMqWfagQFwETbV1ztpECBB1DtQHrKiRz"
-			]
-		},
-		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-			"keccak256": "0x6ef9389a2c07bc40d8a7ba48914724ab2c108fac391ce12314f01321813e6368",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://b7a5cb39b1e6df68f4dd9a5e76e853d745a74ffb3dfd7df4ae4d2ace6992a171",
-				"dweb:/ipfs/QmPbzKR19rdM8X3PLQjsmHRepUKhvoZnedSR63XyGtXZib"
-			]
-		},
-		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-			"keccak256": "0xe06a3f08a987af6ad2e1c1e774405d4fe08f1694b67517438b467cecf0da0ef7",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://df6f0c459663c9858b6cba2cda1d14a7d05a985bed6d2de72bd8e78c25ee79db",
-				"dweb:/ipfs/QmeTTxZ7qVk9rjEv2R4CpCwdf8UMCcRqDNMvzNxHc3Fnn9"
-			]
-		},
-		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-			"keccak256": "0x70f2f713b13b7ce4610bcd0ac9fec0f3cc43693b043abcb8dc40a42a726eb330",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://c13d13304ac79a83ab1c30168967d19e2203342ebbd6a9bbce4db7550522dcbf",
-				"dweb:/ipfs/QmeN5jKMN2vw5bhacr6tkg78afbTTZUeaacNHqjWt4Ew1r"
 			]
 		},
 		"@openzeppelin/contracts/token/ERC721/ERC721.sol": {
@@ -438,14 +253,6 @@
 			"urls": [
 				"bzz-raw://ed0bfc1b92153c5000e50f4021367b931bbe96372ac6facec3c4961b72053d02",
 				"dweb:/ipfs/Qmbwp8VDerjS5SV1quwHH1oMXxPQ93fzfLVqJ2RCqbowGE"
-			]
-		},
-		"@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol": {
-			"keccak256": "0xaad20f8713b5cd98114278482d5d91b9758f9727048527d582e8e88fd4901fd8",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://5396e8dbb000c2fada59b7d2093b9c7c870fd09413ab0fdaba45d882959c6244",
-				"dweb:/ipfs/QmXQn5XckSiUsUBpMYuiFeqnojRX4rKa9jmgjCPeTuPmhh"
 			]
 		},
 		"@openzeppelin/contracts/token/ERC721/utils/ERC721Utils.sol": {
@@ -520,28 +327,12 @@
 				"dweb:/ipfs/QmVUSvooZKEdEdap619tcJjTLcAuH6QBdZqAzWwnAXZAWJ"
 			]
 		},
-		"contracts/Tokens/ANTM_ERC20.sol": {
-			"keccak256": "0x6e3fefaf200cd8b624cb30de2e675ce88c0dd5c6fd3fe647d4239b7b7bc01a75",
+		"test.sol": {
+			"keccak256": "0x5e5a95894bedc5696773c04c305a41f1549ca144786871b729084b95a61c2498",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://78fa07ad301d4a1e9224da1a82ee6c741adadecfde1bdb4deea4a354299f42dc",
-				"dweb:/ipfs/QmdbAgumQfdReJzvSq1Rz3Kzatd29uJNJrn1ATV3LEAJZV"
-			]
-		},
-		"contracts/Tokens/ANTM_NFT.sol": {
-			"keccak256": "0x55f0472f323987ef8a25b4f2d59efb64e809bce0e59f427abeb4b032e5908d0c",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://0e0e2f2a5da0dde6b05cc3fc2f676514772cb8e6d137c922cbad2c7589218d2f",
-				"dweb:/ipfs/QmR47SzwXB9HxXkBsT1S27pxq1xNcURv5kqQKWUc3GLGc9"
-			]
-		},
-		"contracts/Tokens/Marketplace.sol": {
-			"keccak256": "0x57728ac22060ca41ce2ad2e5aadc3931dc768a029176cacd0c3cb9322d5604aa",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://28968df6383e9ce132429cad115a95e9055c75bc6478a0eb8b6b1a4a4e1687c0",
-				"dweb:/ipfs/QmXTaV9mU29zTXv4TLLSDeVwxRg8rdRFb6KJ58Xo4instX"
+				"bzz-raw://9c647cff1003fd3004c00382715a5c6c135678fd890423a1609e8756879ffd62",
+				"dweb:/ipfs/QmSx9BVd8gN2daqMmRBX5scr8764mCJsK6zrWYJEhWitLA"
 			]
 		}
 	},

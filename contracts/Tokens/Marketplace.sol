@@ -22,19 +22,16 @@ contract Marketplace is Ownable, ERC721Holder {
 
     mapping(uint256 tokenID => bool) availableNFTs;
 
-    uint256 public nftPrice;
-    uint256 public rewardTokens;
+    uint256 public nftPrice = 0.01 ether;
+    uint256 public rewardTokens = 20 * 10**18;
 
-    constructor(uint256 _nftPrice, uint256 _rewardTokens) Ownable(msg.sender) {
-        nftPrice = _nftPrice;
-        rewardTokens = _rewardTokens;
-
+    constructor() Ownable(msg.sender) {
         erc20Contract = new ANTM_ERC20();
         nftContract = new ANTM_NFT();
     }
 
-    function add_NFT_To_Marketplace() external onlyOwner {
-        uint256 tokenID = nftContract.mint_ANTM_NFT(address(this));
+    function add_NFT_To_Marketplace(string memory tokenURI) external onlyOwner {
+        uint256 tokenID = nftContract.mint_ANTM_NFT(address(this), tokenURI);
 
         if(tokenID == 0) {
             revert ANTM_NFT_Minting_Error();
@@ -58,12 +55,17 @@ contract Marketplace is Ownable, ERC721Holder {
         availableNFTs[tokenID] = false;
         nftContract.safeTransferFrom(address(this), msg.sender, tokenID);
 
+        uint256 excessAmount = msg.value - nftPrice;
+        if(excessAmount > 0){
+            (bool success, ) = msg.sender.call{value: excessAmount}("");
+            require(success, "Refund failed");
+        }
+
         erc20Contract.mint_ANTM_ERC20(msg.sender, rewardTokens);
 
         emit NFT_Purchased(msg.sender, tokenID);
 
     }
-
 
     function set_NFT_Price(uint256 _nftPrice) external onlyOwner {
         nftPrice = _nftPrice;
@@ -77,6 +79,39 @@ contract Marketplace is Ownable, ERC721Holder {
         payable(owner()).transfer(address(this).balance);
 
     }
+
+    function get_ERC20_Address() external view returns(address) {
+        return address(erc20Contract);
+    }
+
+    function get_NFT_Address() external view returns(address) {
+        return address(nftContract);
+    }
+
+    function get_Available_NFTs() external view returns(uint256[] memory) {
+        uint256 totalSupply = nftContract.currentTokenID();
+        uint count = 0;
+
+        for(uint i=1; i<= totalSupply ;i++) {
+            if(availableNFTs[i]) {
+                count = count +1;
+            }
+        }
+
+        uint256[] memory tokenIds = new uint256[](count);
+
+        uint256 index =0;
+
+        for(uint i = 1; i <= totalSupply; i++) {
+            if(availableNFTs[i]){
+                tokenIds[index] = i;
+                index++;
+            }
+        }
+        return tokenIds;
+
+    }
+
 
 
 

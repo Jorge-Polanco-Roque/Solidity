@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartContract_19.sol": "Marketplace"
+			"contracts/SmartContract_19.sol": "ANTM"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -161,11 +161,11 @@
 			]
 		},
 		"contracts/SmartContract_19.sol": {
-			"keccak256": "0x2e3253288976c477a3edf14b71b8f09faa155e42dce920bbad59e64e6e25fcfe",
+			"keccak256": "0x265bc1326288adeebc5427b7353ce2aa898ac9a1abf92ed3f25e33ef9e9e9427",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6aef4608f8f292fa91ebd5d8cd9da9f71c41ceaafca744728a7f2e784b7c5d7f",
-				"dweb:/ipfs/QmNwUm15Yjo1fwn1m22oWyf2wBVNph9VW4QA5bMZhyGptR"
+				"bzz-raw://98de4056bcfa9ab61be438a4bbec439ed6057818f549a8ca524e8802db85a3a2",
+				"dweb:/ipfs/QmQf5gRErKmUYcVSGJVrcnvf47AzJZaRKo81ahsCdqswWU"
 			]
 		}
 	},
