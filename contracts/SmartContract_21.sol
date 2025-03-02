@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
+//pragma solidity ^0.8.20;
+/*
 // Necesito que el proyecto estén los siguientes
 import "./IERC721.sol";
 import "./IERC721Metadata.sol";
@@ -203,3 +203,4 @@ contract ERC721 is ERC165, IERC721, IERC721Metadata, Context {
 
 
 }
+*/

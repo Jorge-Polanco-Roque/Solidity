@@ -311,22 +311,8 @@
 			<div class="path">
 				<ol itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-						<a itemscope itemtype="https://schema.org/WebPage" itemprop="item"
-						   itemid="/npm/@openzeppelin/contracts@5.2.0/"
-						   href="/npm/@openzeppelin/contracts@5.2.0/" rel="nofollow">
-							<span itemprop="name">@openzeppelin/contracts@5.2.0</span></a> /
+						<span itemprop="name">@openzeppelin/contracts@5.2.0</span>
 						<meta itemprop="position" content="0">
-					</li>
-					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-						<a itemscope itemtype="https://schema.org/WebPage" itemprop="item"
-						   itemid="/npm/@openzeppelin/contracts@5.2.0/token/"
-						   href="/npm/@openzeppelin/contracts@5.2.0/token/" rel="nofollow">
-							<span itemprop="name">token</span></a> /
-						<meta itemprop="position" content="1">
-					</li>
-					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-						<span itemprop="name">ERC721</span>
-						<meta itemprop="position" content="2">
 					</li>
 				</ol>
 
@@ -427,44 +413,97 @@
 			<div class="listing">
 				<table>
 					<tbody>
-					<tr>
-						<td class="name level-up" colspan="2"><a href="../">...</a></td>
-					</tr>
 
 					<tr>
 						<td class="name">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
-							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/token/ERC721/extensions/">extensions</a>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/access/">access</a>
 						</td>
 						<td class="size"></td>
 					</tr>
 					<tr>
 						<td class="name">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
-							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/token/ERC721/utils/">utils</a>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/account/">account</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/build/">build</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/finance/">finance</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/governance/">governance</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/interfaces/">interfaces</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/metatx/">metatx</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/proxy/">proxy</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/token/">token</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/utils/">utils</a>
+						</td>
+						<td class="size"></td>
+					</tr>
+					<tr>
+						<td class="name">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5C2 3.89543 2.89543 3 4 3H8.46482C8.79917 3 9.1114 3.1671 9.29687 3.4453L10.7031 5.5547C10.8886 5.8329 11.2008 6 11.5352 6H16C17.1046 6 18 6.89543 18 8V15C18 16.1046 17.1046 17 16 17H4C2.89543 17 2 16.1046 2 15V5Z" fill="#5C667A"/></svg>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/vendor/">vendor</a>
 						</td>
 						<td class="size"></td>
 					</tr>
 					<tr>
 						<td class="name">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4C4 2.89543 4.89543 2 6 2H11L16 7V16C16 17.1046 15.1046 18 14 18H6C4.89543 18 4 17.1046 4 16V4Z" stroke="#5C667A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/token/ERC721/ERC721.sol">ERC721.sol</a>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/package.json">package.json</a>
 						</td>
-						<td class="size">16.07 KB</td>
+						<td class="size">786 B</td>
 					</tr>
 					<tr>
 						<td class="name">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4C4 2.89543 4.89543 2 6 2H11L16 7V16C16 17.1046 15.1046 18 14 18H6C4.89543 18 4 17.1046 4 16V4Z" stroke="#5C667A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/token/ERC721/IERC721.sol">IERC721.sol</a>
+							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/README.md">README.md</a>
 						</td>
-						<td class="size">4.81 KB</td>
-					</tr>
-					<tr>
-						<td class="name">
-							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4C4 2.89543 4.89543 2 6 2H11L16 7V16C16 17.1046 15.1046 18 14 18H6C4.89543 18 4 17.1046 4 16V4Z" stroke="#5C667A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-							<a rel="nofollow" href="/npm/@openzeppelin/contracts@5.2.0/token/ERC721/IERC721Receiver.sol">IERC721Receiver.sol</a>
-						</td>
-						<td class="size">997 B</td>
+						<td class="size">7.67 KB</td>
 					</tr>
 					</tbody>
 				</table>
@@ -576,7 +615,7 @@
 			});
 
 			versions.addEventListener('change', function() {
-				location.pathname = '/npm/' + this.value + '/token/ERC721/';
+				location.pathname = '/npm/' + this.value + '/';
 			});
 		</script>
 	</body>

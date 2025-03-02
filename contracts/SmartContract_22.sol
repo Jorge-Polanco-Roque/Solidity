@@ -16,10 +16,7 @@ contract NFT is ERC721, Ownable {
         uint256 id;
         uint8 level;
         uint8 rarity;
-        address owner;
     }
-
-    //mapping(uint256 => Nft) nfts;
 
     Nft[] nfts;
 
@@ -91,7 +88,7 @@ contract NFT is ERC721, Ownable {
     function _createNFT(string memory _name) internal {
         uint8 _rarity = uint8(_randomNumber(1000));
 
-        Nft memory newToken = Nft(_name, counter, 1, _rarity, msg.sender);
+        Nft memory newToken = Nft(_name, counter, 1, _rarity);
         _safeMint(msg.sender, counter);
 
         nfts.push(newToken);
